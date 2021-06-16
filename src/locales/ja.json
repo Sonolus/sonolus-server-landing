@@ -1,0 +1,61 @@
+{
+    "server": {
+        "btnHowToUse": "使用方法",
+        "steps": {
+            "1": {
+                "header": "ステップ1：Sonolusの入手",
+                "text": [
+                    "",
+                    "で, Sonolusをダウンロードとインストールしよう。"
+                ]
+            },
+            "2": {
+                "header": "ステップ2: カスタムサーバーの追加",
+                "text": [
+                    "サーバー選択の画面で, カスタムサーバーの追加をクリックしよう。",
+                    "サーバー名にはお好きな名前を入力し、アドレスには上記のアドレスを貼り付けよう。"
+                ],
+                "displays": {
+                    "1": {
+                        "title": "サーバー選択",
+                        "collections": {
+                            "header": "コレクション",
+                            "btnAdd": "追加"
+                        },
+                        "customServers": {
+                            "header": "カスタムサーバー",
+                            "btnAdd": "追加"
+                        }
+                    },
+                    "2": {
+                        "title": "カスタムサーバー情報",
+                        "fldName": "サーバー名",
+                        "fldAddress": "アドレス",
+                        "btnConfirm": "確認"
+                    }
+                }
+            },
+            "3": {
+                "header": "ステップ3: プレイ！",
+                "text": [
+                    "新しく追加されたカスタムサーバーをクリックしてプレイしよう！"
+                ]
+            }
+        }
+    },
+    "info": {
+        "headers": {
+            "levels": "レベル",
+            "skins": "スキン",
+            "backgrounds": "背景",
+            "effects": "SE",
+            "particles": "粒子",
+            "engines": "エンジン"
+        },
+        "txtMore": "そしてさらに！",
+        "error": "エラーが発生しました"
+    },
+    "loading": {
+        "text": "ロード中..."
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "server": {
+        "btnHowToUse": "Cómo jugar",
+        "steps": {
+            "1": {
+                "header": "Paso 1: Conseguir Sonolus",
+                "text": [
+                    "Ve a ",
+                    ", descarga e instala Sonolus."
+                ]
+            },
+            "2": {
+                "header": "Paso 2: Agregar un servidor personalizado",
+                "text": [
+                    "En la pantalla para seleccionar servidor, da click en Agregar en la sección de servidor personalizado.",
+                    "Ingresa un nombre de tu elección en Nombre, y pega la dirección de arriba en Dirección."
+                ],
+                "displays": {
+                    "1": {
+                        "title": "Seleccionar servidor",
+                        "collections": {
+                            "header": "Colección",
+                            "btnAdd": "Agregar"
+                        },
+                        "customServers": {
+                            "header": "Servidor personalizado",
+                            "btnAdd": "Agregar"
+                        }
+                    },
+                    "2": {
+                        "title": "Información del servidor personalizado",
+                        "fldName": "Nombre",
+                        "fldAddress": "Dirección",
+                        "btnConfirm": "Confirmar"
+                    }
+                }
+            },
+            "3": {
+                "header": "Paso 3: ¡A jugar!",
+                "text": [
+                    "Da click en el recién agregado servidor personalizado y a jugar. ¡Diviértete!"
+                ]
+            }
+        }
+    },
+    "info": {
+        "headers": {
+            "levels": "Niveles",
+            "skins": "Skins",
+            "backgrounds": "Fondos",
+            "effects": "Efectos de sonido",
+            "particles": "Partículas",
+            "engines": "Motores"
+        },
+        "txtMore": "¡...y más!",
+        "error": "No se ha podido cargar"
+    },
+    "loading": {
+        "text": "Cargando..."
+    }
+}

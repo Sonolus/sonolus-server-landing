@@ -1,0 +1,61 @@
+{
+    "server": {
+        "btnHowToUse": "사용법",
+        "steps": {
+            "1": {
+                "header": "Step 1: Sonolus 설치",
+                "text": [
+                    "",
+                    " 에 가셔서 Sonolus를 설치하세요."
+                ]
+            },
+            "2": {
+                "header": "Step 2: 커스텀 서버 추가",
+                "text": [
+                    "서버 선택 화면에서, 커스텀 서버 추가 버튼을 누르세요.",
+                    "원하는 이름을 입력하고, 주소란에 위의 주소를 입력해주세요."
+                ],
+                "displays": {
+                    "1": {
+                        "title": "서버 선택",
+                        "collections": {
+                            "header": "컬렉션",
+                            "btnAdd": "추가"
+                        },
+                        "customServers": {
+                            "header": "커스텀 서버",
+                            "btnAdd": "추가"
+                        }
+                    },
+                    "2": {
+                        "title": "커스텀 서버 정보",
+                        "fldName": "이름",
+                        "fldAddress": "주소",
+                        "btnConfirm": "확인"
+                    }
+                }
+            },
+            "3": {
+                "header": "Step 3: 즐기세요!",
+                "text": [
+                    "추가한 커스텀 서버를 누르고 플레이 하시면 됩니다. 즐기세요!"
+                ]
+            }
+        }
+    },
+    "info": {
+        "headers": {
+            "levels": "레벨",
+            "skins": "스킨",
+            "backgrounds": "배경",
+            "effects": "SE",
+            "particles": "탭 이펙트",
+            "engines": "엔진"
+        },
+        "txtMore": "...그리고 더 있음!",
+        "error": "로드 실패"
+    },
+    "loading": {
+        "text": "로딩 중..."
+    }
+}

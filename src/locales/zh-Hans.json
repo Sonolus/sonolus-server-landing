@@ -1,0 +1,61 @@
+{
+    "server": {
+        "btnHowToUse": "如何使用",
+        "steps": {
+            "1": {
+                "header": "第一步：获取Sonolus",
+                "text": [
+                    "前往 ",
+                    "，下载并安装Sonolus。"
+                ]
+            },
+            "2": {
+                "header": "第二部：添加自定义服务器",
+                "text": [
+                    "在选择服务器界面，点击自定义服务器的添加按钮。",
+                    "在名称栏输入喜欢的名称，并将以上的地址粘贴入地址栏。"
+                ],
+                "displays": {
+                    "1": {
+                        "title": "选择服务器",
+                        "collections": {
+                            "header": "收藏",
+                            "btnAdd": "添加"
+                        },
+                        "customServers": {
+                            "header": "自定义服务器",
+                            "btnAdd": "添加"
+                        }
+                    },
+                    "2": {
+                        "title": "自定义服务器信息",
+                        "fldName": "名称",
+                        "fldAddress": "地址",
+                        "btnConfirm": "确认"
+                    }
+                }
+            },
+            "3": {
+                "header": "第三步：开始玩！",
+                "text": [
+                    "点击新添加的自定义服务器并开始玩。尽情享用！"
+                ]
+            }
+        }
+    },
+    "info": {
+        "headers": {
+            "levels": "关卡",
+            "skins": "皮肤",
+            "backgrounds": "背景",
+            "effects": "音效",
+            "particles": "粒子效果",
+            "engines": "引擎"
+        },
+        "txtMore": "…以及更多！",
+        "error": "加载失败"
+    },
+    "loading": {
+        "text": "加载中…"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "server": {
+        "btnHowToUse": "如何使用",
+        "steps": {
+            "1": {
+                "header": "步驟一：下載Sonolus",
+                "text": [
+                    "訪問 ",
+                    "，下載並安裝Sonolus。"
+                ]
+            },
+            "2": {
+                "header": "步驟二：新增伺服器",
+                "text": [
+                    "在選擇伺服器的頁面，點擊自定義伺服器下的「新增」。",
+                    "在「名稱」輸入一個自行定義的伺服器名稱，然後將相應網址貼上在「網址」欄位。"
+                ],
+                "displays": {
+                    "1": {
+                        "title": "選擇伺服器",
+                        "collections": {
+                            "header": "收藏",
+                            "btnAdd": "新增"
+                        },
+                        "customServers": {
+                            "header": "自定義伺服器",
+                            "btnAdd": "新增"
+                        }
+                    },
+                    "2": {
+                        "title": "自定義伺服器資料",
+                        "fldName": "名稱",
+                        "fldAddress": "網址",
+                        "btnConfirm": "確認"
+                    }
+                }
+            },
+            "3": {
+                "header": "步驟三：進行遊玩！",
+                "text": [
+                    "點擊新加入的伺服器，盡情享受遊戲！"
+                ]
+            }
+        }
+    },
+    "info": {
+        "headers": {
+            "levels": "關卡",
+            "skins": "佈景",
+            "backgrounds": "背景",
+            "effects": "SE",
+            "particles": "粒子效果",
+            "engines": "引擎"
+        },
+        "txtMore": "...以及更多！",
+        "error": "無法載入"
+    },
+    "loading": {
+        "text": "載入中..."
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "server": {
+        "btnHowToUse": "Cara Penggunaan",
+        "steps": {
+            "1": {
+                "header": "Langkah 1: Dapatkan Sonolus",
+                "text": [
+                    "Klik ",
+                    ", lalu download dan install Sonolus."
+                ]
+            },
+            "2": {
+                "header": "Langkah 2: Tambahkan Kustom Server",
+                "text": [
+                    "Pada Pilih Server, klik Tambah di seleksi Kustom Server.",
+                    "Masukkan nama yang diinginkan di Nama, dan masukkan alamat di Alamat."
+                ],
+                "displays": {
+                    "1": {
+                        "title": "Pilih Server",
+                        "collections": {
+                            "header": "Koleksi",
+                            "btnAdd": "Tambah"
+                        },
+                        "customServers": {
+                            "header": "Kustom Server",
+                            "btnAdd": "Tambah"
+                        }
+                    },
+                    "2": {
+                        "title": "Info Kustom Server",
+                        "fldName": "Nama",
+                        "fldAddress": "Alamat",
+                        "btnConfirm": "Konfirmasi"
+                    }
+                }
+            },
+            "3": {
+                "header": "Langkah 3: Mainkan!",
+                "text": [
+                    "Klik kustom server yang baru ditambahkan dan mainkan. Selamat bermain!"
+                ]
+            }
+        }
+    },
+    "info": {
+        "headers": {
+            "levels": "Level",
+            "skins": "Skin",
+            "backgrounds": "Latar",
+            "effects": "SFX",
+            "particles": "Partikel",
+            "engines": "Mesin"
+        },
+        "txtMore": "...dan selengkapnya!",
+        "error": "Gagal untuk memuat"
+    },
+    "loading": {
+        "text": "Memuat..."
+    }
+}
