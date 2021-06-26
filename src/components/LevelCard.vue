@@ -48,6 +48,7 @@
                     transform
                     -translate-x-1/2
                     text-transparent
+                    whitespace-nowrap
                 "
                 >{{ level.engine.title }}</span
             >
@@ -62,6 +63,7 @@
                     transform
                     -translate-x-1/2
                     translate-y-1/2
+                    whitespace-nowrap
                 "
                 >{{ level.engine.title }}</span
             >
