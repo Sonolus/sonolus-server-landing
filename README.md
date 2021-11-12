@@ -5,7 +5,7 @@ A lean and beautiful landing page for Sonolus servers, with multiple languages, 
 ## Links
 
 -   [Sonolus Website](https://sonolus.com)
--   [Sonolus Wiki](https://github.com/NonSpicyBurrito/sonolus-wiki)
+-   [Sonolus Wiki](https://wiki.sonolus.com)
 
 ## Building
 
@@ -34,7 +34,7 @@ npm run build
 npm install
 ```
 
-### Serve for development
+### Serve for Development
 
 ```
 npm run serve
