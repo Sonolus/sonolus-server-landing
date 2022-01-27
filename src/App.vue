@@ -250,8 +250,13 @@ export default Vue.extend({
                     this.$i18n.locale = 'ko'
                 if (language === 'es' || language.startsWith('es-'))
                     this.$i18n.locale = 'es'
-                if (language === 'in' || language.startsWith('in-'))
-                    this.$i18n.locale = 'in'
+                if (
+                    language === 'in' ||
+                    language === 'id' ||
+                    language.startsWith('in-') ||
+                    language.startsWith('id-')
+                )
+                    this.$i18n.locale = 'id'
                 if (language === 'zh' || language.startsWith('zh-'))
                     switch (language) {
                         case 'zh-hk':
