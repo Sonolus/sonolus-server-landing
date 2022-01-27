@@ -4,14 +4,14 @@
             <button
                 class="
                     relative
-                    w-32
+                    w-40
                     h-6
                     pl-6
                     pr-1
                     text-sm
                     transition-colors
                     duration-200
-                    sm:w-48 sm:pl-8 sm:pr-2
+                    sm:w-60 sm:pl-8 sm:pr-2
                     bg-sonolus-ui-button-normal
                     hover:bg-sonolus-ui-button-highlighted
                     active:bg-sonolus-ui-button-pressed
