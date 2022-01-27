@@ -34,7 +34,7 @@
 
 <script lang="ts">
 import Vue, { PropType } from 'vue'
-import { SRL } from '@/types/api'
+import { ResourceType, SRL } from 'sonolus-core'
 
 export default Vue.extend({
     name: 'ItemCard',
@@ -50,7 +50,7 @@ export default Vue.extend({
                 title: string
                 subtitle: string
                 author: string
-                thumbnail: SRL
+                thumbnail: SRL<ResourceType>
             }>,
             required: true,
         },
