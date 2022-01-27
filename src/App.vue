@@ -218,6 +218,12 @@ export default Vue.extend({
     },
 
     watch: {
+        '$i18n.locale': {
+            handler(value) {
+                document.documentElement.lang = value
+            },
+            immediate: true,
+        },
         serverInfoUrl() {
             if (this.serverInfoUrl) {
                 this.serverInfo = undefined
