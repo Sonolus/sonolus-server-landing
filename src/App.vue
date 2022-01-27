@@ -89,7 +89,7 @@
                         <loading-display />
                     </template>
                     <template v-else-if="serverInfo">
-                        <template v-for="(item, index) in serverInfo[key]">
+                        <template v-for="(item, index) in serverInfo[key]['items']">
                             <level-card
                                 v-if="key === 'levels'"
                                 :key="index"
