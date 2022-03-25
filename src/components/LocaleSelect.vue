@@ -87,7 +87,7 @@ export default Vue.extend({
             ja: '日本語 (Japanese)',
             ko: '한국어 (Korean)',
             es: 'Español (Spanish)',
-            in: 'Bahasa Indonesia (Indonesian)',
+            id: 'Bahasa Indonesia (Indonesian)',
         },
     }),
 

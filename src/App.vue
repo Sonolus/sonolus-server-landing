@@ -89,7 +89,9 @@
                         <loading-display />
                     </template>
                     <template v-else-if="serverInfo">
-                        <template v-for="(item, index) in serverInfo[key]['items']">
+                        <template
+                            v-for="(item, index) in serverInfo[key].items"
+                        >
                             <level-card
                                 v-if="key === 'levels'"
                                 :key="index"
@@ -107,7 +109,7 @@
                                 :icon="icon"
                             />
                         </template>
-                        <template v-if="serverInfo[key].length">
+                        <template v-if="serverInfo[key].items.length">
                             <div
                                 class="
                                     mt-2
@@ -146,7 +148,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { Info } from '@/types/api'
+import { ServerInfo } from 'sonolus-core'
 import GlowAnimation from '@/components/GlowAnimation.vue'
 import NavBar from '@/components/NavBar.vue'
 import LocaleSelect from '@/components/LocaleSelect.vue'
@@ -175,7 +177,7 @@ export default Vue.extend({
         address: '',
         isSelectingLocale: false,
         isServerInfoLoading: true,
-        serverInfo: undefined as Info | undefined,
+        serverInfo: undefined as ServerInfo | undefined,
         sections: [
             {
                 key: 'levels',
@@ -201,7 +203,7 @@ export default Vue.extend({
                 key: 'engines',
                 icon: require('@/assets/icons/rocket-solid.png'),
             },
-        ] as { key: keyof Info; icon: string }[],
+        ] as const,
     }),
 
     computed: {
@@ -216,6 +218,12 @@ export default Vue.extend({
     },
 
     watch: {
+        '$i18n.locale': {
+            handler(value) {
+                document.documentElement.lang = value
+            },
+            immediate: true,
+        },
         serverInfoUrl() {
             if (this.serverInfoUrl) {
                 this.serverInfo = undefined
@@ -248,8 +256,13 @@ export default Vue.extend({
                     this.$i18n.locale = 'ko'
                 if (language === 'es' || language.startsWith('es-'))
                     this.$i18n.locale = 'es'
-                if (language === 'in' || language.startsWith('in-'))
-                    this.$i18n.locale = 'in'
+                if (
+                    language === 'in' ||
+                    language === 'id' ||
+                    language.startsWith('in-') ||
+                    language.startsWith('id-')
+                )
+                    this.$i18n.locale = 'id'
                 if (language === 'zh' || language.startsWith('zh-'))
                     switch (language) {
                         case 'zh-hk':

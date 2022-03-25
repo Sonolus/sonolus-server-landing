@@ -94,7 +94,7 @@
 
 <script lang="ts">
 import Vue, { PropType } from 'vue'
-import { Level } from '@/types/api'
+import { LevelItem } from 'sonolus-core'
 
 export default Vue.extend({
     name: 'LevelCard',
@@ -105,7 +105,7 @@ export default Vue.extend({
             required: true,
         },
         level: {
-            type: Object as PropType<Level>,
+            type: Object as PropType<LevelItem>,
             required: true,
         },
         icon: {

@@ -2,11 +2,11 @@
     <div class="flex items-center bg-sonolus-ui-surface">
         <a
             class="
+                flex-shrink-0
                 p-2
                 transition-colors
                 duration-200
                 sm:p-4
-                min-w-max
                 hover:bg-sonolus-ui-button-highlighted
                 active:bg-sonolus-ui-button-pressed
             "
@@ -34,11 +34,11 @@
         </div>
         <button
             class="
+                flex-shrink-0
                 p-2
                 transition-colors
                 duration-200
                 sm:p-4
-                min-w-max
                 hover:bg-sonolus-ui-button-highlighted
                 active:bg-sonolus-ui-button-pressed
             "
