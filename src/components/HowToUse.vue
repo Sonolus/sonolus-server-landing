@@ -67,39 +67,6 @@
                                 <div class="text-xl font-bold">
                                     {{
                                         $t(
-                                            'server.steps.2.displays.1.collections.header'
-                                        )
-                                    }}
-                                </div>
-                                <div
-                                    class="
-                                        flex
-                                        items-center
-                                        w-24
-                                        h-6
-                                        p-1
-                                        mx-auto
-                                        mt-2
-                                        bg-sonolus-ui-button-normal
-                                    "
-                                >
-                                    <img
-                                        class="w-4 h-4"
-                                        src="@/assets/icons/plus-solid.png"
-                                        alt="Add"
-                                    />
-                                    <div class="flex-grow ml-1 text-center">
-                                        {{
-                                            $t(
-                                                'server.steps.2.displays.1.collections.btnAdd'
-                                            )
-                                        }}
-                                    </div>
-                                </div>
-
-                                <div class="pt-6 text-xl font-bold">
-                                    {{
-                                        $t(
                                             'server.steps.2.displays.1.customServers.header'
                                         )
                                     }}
@@ -140,6 +107,39 @@
                                             animate-pulse
                                         "
                                     />
+                                </div>
+
+                                <div class="pt-6 text-xl font-bold">
+                                    {{
+                                        $t(
+                                            'server.steps.2.displays.1.collections.header'
+                                        )
+                                    }}
+                                </div>
+                                <div
+                                    class="
+                                        flex
+                                        items-center
+                                        w-24
+                                        h-6
+                                        p-1
+                                        mx-auto
+                                        mt-2
+                                        bg-sonolus-ui-button-normal
+                                    "
+                                >
+                                    <img
+                                        class="w-4 h-4"
+                                        src="@/assets/icons/plus-solid.png"
+                                        alt="Add"
+                                    />
+                                    <div class="flex-grow ml-1 text-center">
+                                        {{
+                                            $t(
+                                                'server.steps.2.displays.1.collections.btnAdd'
+                                            )
+                                        }}
+                                    </div>
                                 </div>
                             </phone-display>
                         </div>
