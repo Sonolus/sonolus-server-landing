@@ -209,9 +209,7 @@ export default Vue.extend({
     computed: {
         serverInfoUrl(): string | undefined {
             if (this.address) {
-                return `${
-                    this.address
-                }/sonolus/info?localization=${this.$i18n.locale.toLowerCase()}`
+                return `${this.address}/sonolus/info?localization=${this.$i18n.locale}`
             }
             return undefined
         },
@@ -267,10 +265,10 @@ export default Vue.extend({
                     switch (language) {
                         case 'zh-hk':
                         case 'zh-tw':
-                            this.$i18n.locale = 'zh-Hant'
+                            this.$i18n.locale = 'zht'
                             break
                         default:
-                            this.$i18n.locale = 'zh-Hans'
+                            this.$i18n.locale = 'zhs'
                             break
                     }
             }
