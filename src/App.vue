@@ -211,7 +211,7 @@ export default Vue.extend({
             if (this.address) {
                 return `${
                     this.address
-                }/info?localization=${this.$i18n.locale.toLowerCase()}`
+                }/sonolus/info?localization=${this.$i18n.locale.toLowerCase()}`
             }
             return undefined
         },
