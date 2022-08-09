@@ -82,8 +82,8 @@ export default Vue.extend({
     data: () => ({
         locales: {
             en: 'English (English)',
-            'zh-Hans': '简体中文 (Simplified Chinese)',
-            'zh-Hant': '繁體中文 (Traditional Chinese)',
+            zhs: '简体中文 (Simplified Chinese)',
+            zht: '繁體中文 (Traditional Chinese)',
             ja: '日本語 (Japanese)',
             ko: '한국어 (Korean)',
             es: 'Español (Spanish)',
