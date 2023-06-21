@@ -1,5 +1,7 @@
 # Sonolus Server Landing
 
+**Archived: Use [sonolus-server-web](https://github.com/Sonolus/sonolus-server-web) instead.**
+
 A lean and beautiful landing page for Sonolus servers, with multiple languages, guide on how to use, and server content showcase.
 
 ## Links
